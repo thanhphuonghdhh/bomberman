@@ -155,22 +155,28 @@ public class Main extends Application {
                             stillObjects.add(object);
                             break;
                         case 'x':
-                            object = new Portal(j, i);
-                            Entity object1= new Brick(j,i);
+                            //object = new Portal(j, i);
+                            //stillObjects.add(object);
+                            object= new Brick(j,i);
                             stillObjects.add(object);
-                            stillObjects.add(object1);
                             break;
 
                         case 'b':
-                            object = new Bomb(j, i);
+                            //object = new Bomb_Up(j, i);
+                            //stillObjects.add(object);
+                            object= new Brick(j,i);
                             stillObjects.add(object);
                             break;
                         case 'f':
-                            object = new Flame(j, i);
+                            //object = new Flame(j, i);
+                            //stillObjects.add(object);
+                            object= new Brick(j,i);
                             stillObjects.add(object);
                             break;
                         case 's':
-                            object = new Speed(j, i);
+                            //object = new Speed(j, i);
+                            //stillObjects.add(object);
+                            object= new Brick(j,i);
                             stillObjects.add(object);
                             break;
                         default:
